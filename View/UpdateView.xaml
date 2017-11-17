@@ -1,0 +1,60 @@
+﻿<Window x:Class="View.UpdateView"
+        x:Name="UpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View"
+        xmlns:vm="clr-namespace:ViewModel;assembly=ViewModel"
+        mc:Ignorable="d"
+        Title="Upravit pobyt" Height="510" Width="380" ResizeMode="CanMinimize" 
+        WindowStartupLocation="CenterOwner">
+
+    <Grid>
+        <Grid Margin="10">
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="5*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="Jméno"/>
+                    <TextBlock Grid.Column="0" Grid.Row="1" Text="Příjmení"/>
+                    <TextBlock Grid.Column="0" Grid.Row="2" Text="Telefonní číslo"/>
+                    <TextBlock Grid.Column="0" Grid.Row="3" Text="Email"/>
+                    <TextBlock Grid.Column="0" Grid.Row="4" Text="Začátek pobytu"/>
+                    <TextBlock Grid.Column="0" Grid.Row="5" Text="Konec pobytu"/>
+                    <TextBlock Grid.Column="0" Grid.Row="6" Text="Status platby"/>
+
+                    <TextBox x:Name="txtFirstName" Grid.Column="1" Grid.Row="0" Text="{Binding SelectedItem.Guest.FirstName}" IsReadOnly="True"/>
+                    <TextBox x:Name="txtLastName" Grid.Column="1" Grid.Row="1" Text="{Binding SelectedItem.Guest.LastName}" IsReadOnly="True"/>
+                    <TextBox x:Name="txtPhoneNumber" Grid.Column="1" Grid.Row="2" Text="{Binding SelectedItem.Guest.PhoneNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                    <TextBox x:Name="txtEmail" Grid.Column="1" Grid.Row="3" Text="{Binding SelectedItem.Guest.Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                    <DatePicker x:Name="dtStart" Grid.Column="1" Grid.Row="4" SelectedDate="{Binding SelectedItem.Accommodation.StartDate, Mode=TwoWay}" DisplayDateStart="{Binding Today, Mode=OneWay}" IsEnabled="{Binding IsDateEnabled}"/>
+                    <DatePicker x:Name="dtEnd" Grid.Column="1" Grid.Row="5" SelectedDate="{Binding SelectedItem.Accommodation.EndDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+                    <ComboBox Grid.Column="1"  Grid.Row="6" ItemsSource="{Binding ComboBox}" SelectedItem="{Binding SelectedItem.Accommodation.PaymentStatus, Mode=TwoWay}" IsEnabled="{Binding IsComboBoxEnabled}"></ComboBox>
+                </Grid>
+
+                <ListBox Height="Auto" MinHeight="130" MaxHeight="150" Margin="20"
+                         ItemsSource="{Binding Rooms}" SelectedItem="{Binding SelectedRoom}"
+                    ItemTemplate="{DynamicResource RoomItemDataTemplate}">
+                </ListBox>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Uložit" Style="{DynamicResource SaveButton}" Command="{Binding UpdateCommand}" CommandParameter="{Binding ElementName=UpdateWindow}"></Button>
+                    <Button Content="Volné pokoje" Style="{DynamicResource AvaibleButton}" Command="{Binding AvaibleRoomsCommand}"></Button>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

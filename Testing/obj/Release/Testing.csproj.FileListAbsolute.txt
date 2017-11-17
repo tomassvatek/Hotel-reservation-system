@@ -1,0 +1,10 @@
+D:\Dropbox\Projects\HotelReservationSystem\Testing\bin\Release\Testing.exe.config
+D:\Dropbox\Projects\HotelReservationSystem\Testing\bin\Release\Testing.exe
+D:\Dropbox\Projects\HotelReservationSystem\Testing\bin\Release\Testing.pdb
+D:\Dropbox\Projects\HotelReservationSystem\Testing\bin\Release\Model.dll
+D:\Dropbox\Projects\HotelReservationSystem\Testing\bin\Release\EntityFramework.dll
+D:\Dropbox\Projects\HotelReservationSystem\Testing\bin\Release\Model.pdb
+D:\Dropbox\Projects\HotelReservationSystem\Testing\bin\Release\EntityFramework.xml
+D:\Dropbox\Projects\HotelReservationSystem\Testing\obj\Release\Testing.csprojResolveAssemblyReference.cache
+D:\Dropbox\Projects\HotelReservationSystem\Testing\obj\Release\Testing.exe
+D:\Dropbox\Projects\HotelReservationSystem\Testing\obj\Release\Testing.pdb

@@ -1,0 +1,184 @@
+﻿<Window x:Class="View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View"
+        mc:Ignorable="d"
+        Title="Rezervační systém" Height="580" Width="1030" 
+        ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid x:Name="dataGrid" Grid.Column="1" Grid.Row="1" IsReadOnly="True" 
+                      ItemsSource="{Binding DataGrid}" SelectedItem="{Binding SelectedItem}"
+                      SelectionMode="Single">
+
+                <DataGrid.Columns>
+
+                    <DataGridTemplateColumn Header="Jméno" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Guest.FirstName}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Přijmení" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Guest.LastName}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Email" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Guest.Email}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+
+                    <DataGridTemplateColumn Header="Tel. číslo" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Guest.PhoneNumber}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Pokoj" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Accommodation.RoomNumber}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Začátek" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock  Text="{Binding Accommodation.StartDate, StringFormat=dd.MM.yyyy}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Konec" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock  Text="{Binding Accommodation.EndDate, StringFormat= dd.MM.yyyy}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Cena" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Accommodation.Price}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Status" Width="SizeToCells" 
+                                            MinWidth="70" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Accommodation.PaymentStatus}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+            
+
+            <Border Grid.Column="0" Grid.Row="0" Background="#134187"/>
+            <!--<Image Source="icons/hotel59.png"></Image>-->
+
+            <Border Grid.Column="1" Grid.Row="0" Background="#134187">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Border Background="White"/>
+                </Grid>
+
+            </Border>
+            <Border Grid.Column="0" Grid.Row="1" Background="#134187">
+                <StackPanel>
+                    <Button Style="{DynamicResource menubuton}" Height="65" Click="btn_Add">
+                        <DockPanel Width="130">
+                            <Image Width="40" Source="icons/add.png"/>
+                            <Label Content="Přidat" FontSize="17" Foreground="Black"/>
+                        </DockPanel>
+                    </Button>
+
+                    <Button Style="{DynamicResource menubuton}" Height="65" Click="btn_Update"
+                            IsEnabled="{Binding IsEditable}">
+                        <DockPanel Width="130">
+                            <Image Width="40" Source="icons/update.png"/>
+                            <Label Content="Upravit" FontSize="17" Foreground="Black"/>
+                        </DockPanel>
+                    </Button>
+
+                    <Button Style="{DynamicResource menubuton}" Height="65" 
+                            Command="{Binding DeleteCommand}"
+                            IsEnabled="{Binding IsDeletable}">
+                        <DockPanel Width="130">
+                            <Image Width="40" Source="icons/delete.png"/>
+                            <Label Content="Odstranit" FontSize="17" Foreground="Black"/>
+                        </DockPanel>
+                    </Button>
+
+                    <Button Style="{DynamicResource menubuton}" Height="65" 
+                            Command="{Binding CurrentCommand}"
+                            IsEnabled="{Binding IsCurrentEnabled}">
+                        <DockPanel Width="130">
+                            <Image Width="40" Source="icons/bed.png"/>
+                            <Label Content="Ubytovaní" FontSize="17" Foreground="Black"/>
+                        </DockPanel>
+                    </Button>
+
+                    <Button Style="{DynamicResource menubuton}" Height="65" 
+                            Command="{Binding ReservationCommand}"
+                            IsEnabled="{Binding IsReservationEnabled}">
+                        <DockPanel Width="130">
+                            <Image Width="40" Source="icons/booked.png"/>
+                            <Label Content="Rezervace" FontSize="17" Foreground="Black"/>
+                        </DockPanel>
+                    </Button>
+
+                    <Button Style="{DynamicResource menubuton}" Height="65" 
+                            Command="{Binding HistoryCommand}"
+                            IsEnabled="{Binding IsHistoryEnabled}">
+                        <DockPanel Width="130">
+                            <Image Width="40" Source="icons/history.png"/>
+                            <Label Content="Historie" FontSize="17" Foreground="Black"/>
+                        </DockPanel>
+                    </Button>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
