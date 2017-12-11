@@ -8,3 +8,9 @@ D:\Dropbox\Projects\C#\HotelReservationSystem\Model\bin\Debug\Model.pdb
 D:\Dropbox\Projects\C#\HotelReservationSystem\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 D:\Dropbox\Projects\C#\HotelReservationSystem\Model\obj\Debug\Model.dll
 D:\Dropbox\Projects\C#\HotelReservationSystem\Model\obj\Debug\Model.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\bin\Debug\Model.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\bin\Debug\Model.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\obj\Debug\Model.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\obj\Debug\Model.pdb

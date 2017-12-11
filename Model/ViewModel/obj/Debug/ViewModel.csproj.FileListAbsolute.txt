@@ -26,3 +26,19 @@ D:\Dropbox\Projects\C#\HotelReservationSystem\Model\ViewModel\bin\Debug\EntityFr
 D:\Dropbox\Projects\C#\HotelReservationSystem\Model\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
 D:\Dropbox\Projects\C#\HotelReservationSystem\Model\ViewModel\obj\Debug\ViewModel.dll
 D:\Dropbox\Projects\C#\HotelReservationSystem\Model\ViewModel\obj\Debug\ViewModel.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\ViewModel.dll.config
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\ViewModel.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\ViewModel.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\DataAccess.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\EntityFramework.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\Model.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\DataAccess.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\DataAccess.dll.config
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\Model.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\EntityFramework.xml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\obj\Debug\ViewModel.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\Model\ViewModel\obj\Debug\ViewModel.pdb

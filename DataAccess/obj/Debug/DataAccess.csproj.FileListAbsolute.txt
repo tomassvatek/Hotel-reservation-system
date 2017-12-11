@@ -22,3 +22,16 @@ D:\Dropbox\Projects\C#\HotelReservationSystem\DataAccess\bin\Debug\EntityFramewo
 D:\Dropbox\Projects\C#\HotelReservationSystem\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 D:\Dropbox\Projects\C#\HotelReservationSystem\DataAccess\obj\Debug\DataAccess.dll
 D:\Dropbox\Projects\C#\HotelReservationSystem\DataAccess\obj\Debug\DataAccess.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\DataAccess.dll.config
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\DataAccess.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\DataAccess.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\EntityFramework.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\Model.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\Model.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\EntityFramework.xml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\obj\Debug\DataAccess.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\DataAccess\obj\Debug\DataAccess.pdb

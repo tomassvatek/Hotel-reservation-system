@@ -58,3 +58,36 @@ D:\Dropbox\Projects\C#\HotelReservationSystem\View\obj\Debug\View.Properties.Res
 D:\Dropbox\Projects\C#\HotelReservationSystem\View\obj\Debug\View.csproj.GenerateResource.Cache
 D:\Dropbox\Projects\C#\HotelReservationSystem\View\obj\Debug\View.exe
 D:\Dropbox\Projects\C#\HotelReservationSystem\View\obj\Debug\View.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\View.exe.config
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\View.exe
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\View.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\DataAccess.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\EntityFramework.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\Model.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\ViewModel.dll
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\DataAccess.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\DataAccess.dll.config
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\Model.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\ViewModel.pdb
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\ViewModel.dll.config
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\EntityFramework.xml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\Simple Styles.baml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\AddView.g.cs
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\MainView.g.cs
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\UpdateView.g.cs
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\App.g.cs
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View_MarkupCompile.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View_MarkupCompile.lref
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\App.baml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\AddView.baml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\MainView.baml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\UpdateView.baml
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View.g.resources
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View.Properties.Resources.resources
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View.csproj.GenerateResource.Cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View.exe
+D:\My Data\School\Semestrální práce\PDBS\HotelReservationSystem\View\obj\Debug\View.pdb
