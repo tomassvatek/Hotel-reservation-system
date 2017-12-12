@@ -3,9 +3,12 @@
 A simple hotel management system.
 
 ## Features
-*
-*
-*
+* Create reservation
+* Update reservation
+* Delete reservation
+* Reservation view
+* History view
+
 
 
 ## Screenshots
