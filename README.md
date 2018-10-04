@@ -16,5 +16,5 @@ A simple hotel management system.
 ### Dashboard
 <img src="https://github.com/tomassvatek/Hotel-reservation-system/blob/master/Screenshots/Main.png" width="700">
 
-### Add new customer
+### Create a reservation
 <img src="https://github.com/tomassvatek/Hotel-reservation-system/blob/master/Screenshots/AddGuest.png" width="700">
