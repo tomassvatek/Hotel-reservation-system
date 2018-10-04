@@ -13,8 +13,8 @@ A simple hotel management system.
 
 ## Screenshots
 
-### Main window
+### Dashboard
 <img src="https://github.com/tomassvatek/Hotel-reservation-system/blob/master/Screenshots/Main.png" width="700">
 
-### Reservation window
+### Add new customer
 <img src="https://github.com/tomassvatek/Hotel-reservation-system/blob/master/Screenshots/AddGuest.png" width="700">
